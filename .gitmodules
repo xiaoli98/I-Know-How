@@ -1,6 +1,6 @@
 [submodule "HighwayEnv"]
 	path = HighwayEnv
-	url = ./HighwayEnv/
+	url = https://github.com/xiaoli98/HighwayEnv.git
 [submodule "stable-baselines3"]
 	path = stable-baselines3
-	url = ./stable-baselines3/
+	url = https://github.com/xiaoli98/stable-baselines3.git
