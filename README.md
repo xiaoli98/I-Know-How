@@ -33,6 +33,20 @@ pip install -e ./HighwayEnv -e ./stable-baslines3
 pip install -r requirements.txt
 ```
 
+## 4. Running experiments
+You can find some examples in experiments*.sh files. 
+Some pretrained skills can be found in src/checkpoint, which are ready to use for sac_master.py and sac_pnn.py
+To train your own skills:
+```shell
+python3 src/sac.py
+```
+
+To see configurable parameters use:
+```shell
+python3 src/sac.py -h
+```
+
+
 # Changes in HighwayEnv and stable-baselines3
 To adapt to our framework we modified the environment of [HighwayEnv](https://github.com/Farama-Foundation/HighwayEnv) and [stable-baselines3](https://github.com/DLR-RM/stable-baselines3)
 
