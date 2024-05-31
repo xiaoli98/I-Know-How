@@ -19,13 +19,13 @@ In the IKH framework, we stores a set of pre-trained policies on simple tasks as
 
 ## 1. Clone the repository
 ```shell
-git clone https://github.com/xiaoli98/IKH-Combining-Prior-Policies-to-Solve-New-Tasks.git
+git clone --recursive https://github.com/xiaoli98/IKH-Combining-Prior-Policies-to-Solve-New-Tasks.git
 cd IKH-Combining-Prior-Policies-to-Solve-New-Tasks
 ```
 
 ## 2. Install custom version of HighwayEnv and stable-baselines3
 ```shell
-pip install -e ./HighwayEnv ./stable-baslines3
+pip install -e ./HighwayEnv -e ./stable-baslines3
 ```
 
 ## 3. Install other requirements
