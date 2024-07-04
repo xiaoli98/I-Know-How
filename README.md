@@ -66,3 +66,14 @@ We added two additional environments: indiana-v0 and lane-centering-v0, other en
 We modified stable-baselines3's SAC algorithm to adapt it to act as the Master Policy, therefore receives actions from skills and combines them to obtain the final action.
 
 # Citation
+```
+@misc{li2024iknowhowcombining,
+    title={I Know How: Combining Prior Policies to Solve New Tasks}, 
+    author={Malio Li and Elia Piccoli and Vincenzo Lomonaco and Davide Bacciu},
+    year={2024},
+    eprint={2406.09835},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2406.09835}, 
+}
+```
