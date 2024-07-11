@@ -1,7 +1,8 @@
 <div align="center">
   <h1 align="center">IKH-Combining-Prior-Policies-to-Solve-New-Tasks</h1>
 </div>
-This is the implementation of the auxiliary paper titled: "I Know How: Combining Prior Policies to Solve New Tasks" accepted by IEEE Conference on Games (CoG) 2024
+
+This is the implementation of the auxiliary paper titled: ["I Know How: Combining Prior Policies to Solve New Tasks"](https://arxiv.org/abs/2406.09835) accepted by IEEE Conference on Games (CoG) 2024
 
 # About
 
